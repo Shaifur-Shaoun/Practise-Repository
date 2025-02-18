@@ -1,2 +1,2 @@
-# Practise-Repository
+# my-second-Repository
 my second repository
