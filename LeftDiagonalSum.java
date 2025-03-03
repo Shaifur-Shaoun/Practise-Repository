@@ -23,5 +23,12 @@ public class LeftDiagonalSum {
 }
 
     System.out.println(sum);
+
     }
+
+        
 }
+    
+    
+
+
