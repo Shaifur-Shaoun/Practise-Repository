@@ -4,7 +4,7 @@ public class MatrixSum {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Read matrix dimensions
+    
         System.out.print("Enter number of rows: ");
         int m = scanner.nextInt();
         System.out.print("Enter number of columns: ");
@@ -14,7 +14,7 @@ public class MatrixSum {
         int[][] matrix2 = new int[m][n];
         int[][] sumMatrix = new int[m][n];
 
-        // Read first matrix
+        
         System.out.println("Enter first matrix elements:");
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
@@ -22,7 +22,7 @@ public class MatrixSum {
             }
         }
 
-        // Read second matrix
+     
         System.out.println("Enter second matrix elements:");
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
@@ -30,7 +30,7 @@ public class MatrixSum {
             }
         }
 
-        // Display first matrix
+       
         System.out.println("First matrix:");
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
