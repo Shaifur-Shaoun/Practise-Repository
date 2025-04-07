@@ -6,7 +6,7 @@ public class Reversed1DArr {
         System.out.println("original arr :"+Arrays.toString(arr));
 
         reversearr(arr);
-        System.out.println("oreversed arr :"+Arrays.toString(arr));
+        System.out.println("reversed arr :"+Arrays.toString(arr));
 
     }
     public static void reversearr(int []arr){

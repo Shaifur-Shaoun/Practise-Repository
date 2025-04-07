@@ -34,6 +34,13 @@ double Ave(){
         M.display();
      }
 
+     mark[2]=new Marks("Kill", 56, 69, 90);
+     
+     System.out.println("Replace :");
+     for(Marks M: mark){
+        M.display();
+     }
+
  }
 }
 
