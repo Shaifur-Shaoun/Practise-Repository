@@ -30,7 +30,7 @@ double Ave(){
     mark[3]=new Marks("nol", 30, 60, 90);
     mark[4]=new Marks("Alice", 30, 60, 90);
 
-     for(Marks M: mark){
+     for(Marks n: mark){
         M.display();
      }
 
