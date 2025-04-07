@@ -1,0 +1,25 @@
+import java.util.*;
+
+public class Simple2DReplace {
+    public static void main(String[] args) {
+        int[][] arr = {
+            {2, 3, 2},
+            {4, 2, 5}
+        };
+
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                if (arr[i][j] == 2) {
+                    arr[i][j] = 99;
+                }
+            }
+        }
+
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(Arrays.toString(arr[i]));
+            }
+          
+        }
+    }
+    
+
